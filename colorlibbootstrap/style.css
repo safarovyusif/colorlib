@@ -1,0 +1,154 @@
+
+.header-wrapper{
+    background: url(img/banner.png);
+    height: 900px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+.header-wrapper::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    background-color: #1f1f1f;
+    width: 100%;
+    opacity: .8;
+    z-index: -1;
+}
+.wrapper-header-text{
+    font-size: 78px;
+}
+.card-header-text{
+    font-weight: 400;
+    font-size: 25px;
+}
+.card-hover{
+    border: 2px solid rgb(236, 234, 234);
+}
+.card-hover:hover{
+border-color: rgb(69, 69, 241);
+}
+.margin{
+    margin-top: 150px;
+}
+#about-us-img{
+    height: 700px;
+}
+.about-us-button{
+    border-radius: 25px;
+    background: #615cfd;
+    border: none;
+    padding: 12px 33px;
+}
+.about-us-text-area{
+    background-color: #1f1f1f;
+}
+.about-us-text-area-texts{
+margin-top: 200px;
+}
+.about-us-text-area-texts>h5{
+    margin-bottom: 30px;
+}
+.about-us-text-area-texts>h2{
+    margin-bottom: 30px;
+}
+#featuredworksthumb{
+    height: 350px;
+    width: 100%;
+}
+.how-we-work-bg{
+    background-image: url(img/work.webp);
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.how-we-work{
+    height: 700px;
+}
+.how-we-work-text-area>h1{
+font-weight: 600;
+}
+.how-we-work-text-area>p{
+    font-size: 18px;
+}
+.how-we-work-button{
+    border-radius: 50px;
+}
+.testimonials-bg{
+    background-image: url(img/banner.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+    height: 600px;
+}
+.testimonials-wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+.testimonials-bg::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    background-color: #1f1f1f;
+    width: 100%;
+    opacity: .6;
+    z-index: -1;
+
+}
+.testimonials-text{
+    font-size: 25px;
+}
+.get-contact-input{
+    border: 1px solid rgb(216, 214, 214);
+    border-radius: 25px;
+    padding: 10px;
+    width: 100%;
+}
+#get-in-touch-message{
+    padding-bottom: 150px;
+}
+.get-in-touch-button{
+    border-radius: 25px;
+    width: 100%;
+    height: 50px;
+    background-color: #615cfd;
+}
+.footer-bg{
+    background-color: #1f1f1f;
+}
+.footer-ul{
+    list-style: none;
+}
+.footer-ul>li{
+    margin: 0 20px;
+}
+.footerhr{
+    background-color: rgb(156, 153, 153);
+    width: 90%;
+}
+.dot{
+    border:1px solid gray;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.fa-facebook-f{
+    font-size: 13px;
+}
